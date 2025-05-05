@@ -1,10 +1,12 @@
-# 📁 Repositorio de Trabajos
+# 📁 Repositorio de Trabajos - HTML5, CSS y Responsive
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/tu-usuario/tu-repositorio)](https://github.com/tu-usuario/tu-repositorio/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/tu-usuario/tu-repositorio)](https://github.com/tu-usuario/tu-repositorio/stargazers)
+¡Bienvenido/a a mi repositorio de proyectos realizados para la clase de **HTML5**, **CSS** y **Diseño Responsive**!
 
-Bienvenido/a a mi repositorio para la clase de HTML5, CSS y responsive
+🧑‍💻 **Autor:** Jann Villalba  
+🆔 **Ficha:** 3147253  
 
-## 🗂 Trabajos:
-[![Glosario Branch](https://img.shields.io/badge/glosario-docs-green)](https://github.com/JannVillalba/sena_html_y_css/tree/Glosario)
+## 🗂 Trabajos Disponibles
+
+- [![Glosario](https://img.shields.io/badge/Ver_Glosario-%F0%9F%93%9D-green?style=flat-square)](https://github.com/JannVillalba/sena_html_y_css/tree/Glosario)  
+  Repositorio del glosario con definiciones clave sobre HTML5 y CSS.
+
