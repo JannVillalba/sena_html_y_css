@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4ff; /* Fondo claro con tono azul */
+}
+
+h1 {
+    color: #1a3d6d; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #2e5984; /* Azul intermedio */
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2e5984; /* Azul intermedio */
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a3c1e1; /* Azul claro */
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #1a3d6d; /* Azul oscuro */
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2e5984; /* Azul intermedio */
+    transform: translateY(-2px);
+}
+
+/* Secciones de contenido */
+section {
+    background-color: #eaf2ff; /* Fondo azul muy claro */
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Términos */
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #1a3d6d; /* Azul oscuro */
+}
+
+/* Enlace al final */
+a[href="_html/glosario-2.html"] {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #2e5984; /* Azul intermedio */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+a[href="_html/glosario-2.html"]:hover {
+    background-color: #1a3d6d; /* Azul oscuro */
+}
+
+/* Botones al final */
+.button {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2e5984; /* Azul intermedio */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1a3d6d; /* Azul oscuro */
+    transform: translateY(-2px);
+}
+
