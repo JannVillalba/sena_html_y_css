@@ -4,6 +4,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/tu-usuario/tu-repositorio)](https://github.com/tu-usuario/tu-repositorio/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/tu-usuario/tu-repositorio)](https://github.com/tu-usuario/tu-repositorio/stargazers)
 
-Bienvenido/a a mi repositorio personal donde almaceno, organizo y comparto mis trabajos, proyectos y ejercicios de práctica.
+Bienvenido/a a mi repositorio para la clase de HTML5, CSS y responsive
 
-## 🗂 Estructura del Repositorio
+## 🗂 Trabajos:
+[![Glosario Branch](https://img.shields.io/badge/glosario-docs-green)](https://github.com/JannVillalba/sena_html_y_css/tree/Glosario)
