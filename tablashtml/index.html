@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <h1 id="inicio" class="texto1" > Semana 3 Manejo de Tablas </h1>
+    <h2 class="texto2">Tablas en HTML </h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">🌐Inicio</a></li>
+                <li><a href="#horario">📅 Horario de Clases</a></li>
+                <li><a href="#productos">📦 Productos</a></li>
+                <li><a href="#torneo">🏆 Torneo de Videojuegos</a></li>
+                <li><a href="#calendario">📅 Calendario</a></li>
+                <li><a href="#estadisticas">📊 Estadísticas</a></li>
+                <li><a href="#usuarios">👥 Usuarios</a></li>
+                <li><a href="#tareas">✅ Tareas</a></li>
+                <li><a href="#menu">🍽️ Menú</a></li>
+                <li><a href="#lugares">✈️ Lugares</a></li>
+                <li><a href="#personajes">🌟 Personajes</a></li>
+            </ul>
+        </nav>
+
+    <table  class="table-schedule" id="horario">
+        <caption>📕Horario de clases</caption>
+        <tr class="header-schedule">
+            <th>Hora</th>
+            <th>Lunes </th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+        </tr>
+
+        <tr class ="schedule-materia">
+            <td>12:00 - 2:30</td>
+            <td>Html y css </td>
+            <td> Arquitectura de software</td>
+            <td>Metodologías ágiles</td>
+            <td>Base de datos</td>
+            <td>Inglés</td>
+            <td>Programación orientada a objetos</td>
+        </tr>
+        <tr class="schedule-descanso">
+            <td>2:30 - 3:10</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+        </tr>
+        <tr class="schedule-materia">
+            <td>3:10 - 6:00</td>
+            <td>Html y css</td>
+            <td> Arquitectura de software</td>
+            <td>Metodologías ágiles</td>
+            <td>Base de datos</td>
+            <td>Hábitos saludables </td>
+            <td>Programación orientada a objetos</td>
+        </tr>
+    </table>
+<br>
+    <table class="table-productos" id="productos">
+        <caption>📦Productos</caption>
+        <tr class="header-productos">
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th> Cantidad</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+        </tr>
+        <tr class="productos">
+            <td>Manzana</td>
+            <td>$2.000</td>
+            <td>10</td>
+            <td>Fruta fresca y jugosa</td>
+            <td><img src="./img/manzana.webp" alt="manzana"></td>
+        </tr>
+        <tr class="productos">
+            <td>Pan</td>
+            <td>$400</td>
+            <td>20</td>
+            <td>Pan integral recién horneado</td>
+            <td><img src="./img/pan.webp" alt="pan"> </td>
+        </tr>
+        <tr class="productos">
+            <td>Leche</td>
+            <td>$4500</td>
+            <td>15</td>
+            <td>Leche fresca de granja</td>
+            <td><img src="./img/leche.webp " alt="leche" ></td>
+        </tr>
+        <tr class="productos">
+            <td>Arroz</td>
+            <td>$1200</td>
+            <td>25</td>
+            <td>Arroz orgánico de alta calidad</td>
+            <td><img src="./img/arroz.png" alt="arroz"></td>
+        </tr>
+        <tr class="productos">
+            <td>Carne</td>
+            <td>$18.000</td>
+            <td>5</td>
+            <td>Carne de res fresca y tierna</td>
+            <td><img src="./img/carne.webp" alt=""></td>
+        </tr>
+        <tr class="productos">
+            <td>Pollo</td>
+            <td>$15.000</td>
+            <td>8</td>
+            <td>Pollo orgánico y saludable</td>
+            <td><img src="./img/pollo.png" alt=""></td>
+        </tr>
+    </table>
+    <br>
+    <table class="torneo" id="torneo">
+        <caption>🏆Torneo de video juegos </caption>
+        <tr class="header-torneo">
+            <th>Equipo</th>
+            <th>Juego</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Resultado</th>
+        </tr>
+        <tr class="torneo-equipo">
+            <td> The Best LOL</td>
+            <td>League of Legends</td>
+            <td>15/10/2023</td>
+            <td>18:00</td>
+            <td>Victoria</td>
+        </tr>
+        <tr class="torneo-equipo">
+            <td>Strike win</td>
+            <td>Counter-Strike</td>
+            <td>16/10/2023</td>
+            <td>19:00</td>
+            <td>Derrota</td>
+        </tr>
+        <tr class="torneo-equipo">
+            <td> DT Team</td>
+            <td>Dota 2</td>
+            <td>17/10/2023</td>
+            <td>20:00</td>
+            <td>Empate</td>
+        </tr>
+        <tr class="torneo-equipo">
+            <td> Heretic</td>
+            <td>Valorant</td>
+            <td>18/10/2023</td>
+            <td>21:00</td>
+            <td>Victoria</td>
+        </tr>
+        <tr class="torneo-equipo">
+            <td>GGFC</td>
+            <td>FIFA 23</td>
+            <td>19/10/2023</td>
+            <td>22:00</td>
+            <td>Derrota</td>
+        </tr>
+        <tr class="torneo-equipo">
+            <td>Call win</td>
+            <td>Call of Duty</td>
+            <td>20/10/2023</td>
+            <td>23:00</td>
+            <td>Victoria</td>
+        </tr>
+    </table>
+<br>
+<table class ="Calendario" id="calendario">
+    <caption>📅Calendario de eventos</caption>
+    <tr class="header-calendario">
+        <th>Fecha</th>
+        <th>Evento</th>
+        <th>Descripción</th>
+    </tr>
+    <tr class="calendario-evento">
+        <td>01/11/2023</td>
+        <td>Concierto de Rock</td>
+        <td>Concierto en el estadio el campin con bandas internacionales.</td>
+    </tr>
+    <tr class="calendario-evento">
+        <td>05/11/2023</td>
+        <td>Feria de Tecnología</td>
+        <td>Exposición de nuevas tecnologías.</td>
+    </tr>
+    <tr class="calendario-evento">
+        <td>10/11/2023</td>
+        <td>Festival de Cine</td>
+        <td>Proyección de películas en el teatro Julio Mario Santo Domingo</td>
+    </tr>
+    <tr class="calendario-evento">
+        <td>15/11/2023</td>
+        <td>Maratón de Lectura</td>
+        <td>Lectura continua de libros en la biblioteca Nacional.</td>
+    </tr>
+    <tr class="calendario-evento">
+        <td>20/11/2023</td>
+        <td>Conferencia de Marketing Digital</td>
+        <td>Charlas sobre las últimas tendencias en marketing digital.</td>
+    </tr>
+    <tr class="calendario-evento">
+        <td>25/11/2023</td>
+        <td>Exposición de Arte</td>
+        <td>Exhibición de obras de artistas locales en la galería distrital.</td>
+    </tr>
+</table>
+<table class="table-estadisticas" id="estadisticas">
+    <caption>📊Tabla de Estadísticas</caption>
+    <tr class="header-estadistica">
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+        <th>Calificación</th>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Ana</td>
+        <td>25</td>
+        <td>Bogotá</td>
+        <td>9.5</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Carlos</td>
+        <td>30</td>
+        <td>Medellín</td>
+        <td>8.7</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Lucía</td>
+        <td>22</td>
+        <td>Cali</td>
+        <td>9.0</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Pedro</td>
+        <td>28</td>
+        <td>Barranquilla</td>
+        <td>8.5</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>María</td>
+        <td>26</td>
+        <td>Cartagena</td>
+        <td>9.2</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Javier</td>
+        <td>24</td>
+        <td>Bucaramanga</td>
+        <td>8.8</td>
+    </tr>
+    <tr class="estadisticas-dato">
+        <td>Isabel</td>
+        <td>27</td>
+        <td>Santa Marta</td>
+        <td>9.1</td>
+    </tr>
+</table>
+<table class="table-usuarios" id="usuarios" >
+    <caption>👥Usuarios Registrados</caption>
+    <tr class="header-usuarios">
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Fecha de Registro</th>
+        <th>Estado</th>
+    </tr>
+    <tr class="usuarios-dato">
+        <td>1</td>
+        <td>Juan Pérez</td>
+        <td>juanperez@gmail.com</td>
+        <td>01/01/2023</td>
+        <td>Activo</td>
+    </tr>
+    <tr class="usuarios-dato">
+        <td>2</td>
+        <td>María López</td>
+        <td>marialopez@gmail.com</td>
+        <td>15/02/2023</td>
+        <td>Inactivo</td>
+    </tr>
+    <tr class="usuarios-dato">
+        <td>3</td>
+        <td>Carlos García</td>
+        <td>carlosgarcia@gmail.com</td>
+        <td>20/03/2023</td>
+        <td>Activo</td>
+    </tr>
+    <tr class="usuarios-dato">
+        <td>4</td>
+        <td>Lucía Martínez</td>
+        <td>luciamartinez@gmail.com</td>
+        <td>25/04/2023</td>
+        <td>Activo</td>
+    </tr>
+</table>
+<table class="table-tareas" id="tareas">
+    <caption>✅Tabla de tareas</caption>
+    <tr class="header-tareas">
+        <th>ID</th>
+        <th>Tarea</th>
+        <th>Descripción</th>
+        <th>Fecha de Vencimiento</th>
+        <th>Estado</th>
+    </tr>
+    <tr class="tareas-dato">
+        <td>1</td>
+        <td>Estudiar HTML</td>
+        <td>Repasar las etiquetas y estructura básica de HTML.</td>
+        <td>01/11/2023</td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>2</td>
+        <td>Practicar CSS</td>
+        <td>Crear un diseño simple utilizando CSS.</td>
+        <td>02/11/2023</td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>3</td>
+        <td>Revisar JavaScript</td>
+        <td>Estudiar las funciones y eventos en JavaScript.</td>
+        <td>03/11/2023</td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>4</td>
+        <td>Proyecto Final</td>
+        <td>Desarrollar un proyecto final integrando HTML, CSS y JavaScript.</td>
+        <td>10/11/2023</td>
+        <td><label>
+            <input type="checkbox">
+        </label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>5</td>
+        <td>Revisión de Código</td>
+        <td>Revisar el código del proyecto final con un compañero.</td>
+        <td>12/11/2023</td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>6</td>
+        <td>Presentación del Proyecto</td>
+        <td>Preparar la presentación del proyecto final.</td>
+        <td>15/11/2023</td>
+
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr class="tareas-dato">
+        <td>7</td>
+        <td>Documentación del Proyecto</td>
+        <td>Crear la documentación del proyecto final.</td>
+        <td>20/11/2023</td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+</table>
+<table class="table-menu" id="menu">
+    <caption>🛎️Tabla menu</caption>
+    <tr class="header-menu">
+        <th>Imagen</th>
+        <th>Plato</th>
+        <th>Precio</th>
+        <th>Descripción</th>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/pizzamargarita.avif" alt="pizza"></td>
+        <td>Pizza Margarita</td>
+        <td>$12.000</td>
+        <td>Deliciosa pizza con salsa de tomate, queso y albahaca.</td>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/hamburguesa.avif" alt="hamburguesa"></td>
+        <td>Hamburguesa Clásica</td>
+        <td>$10.000</td>
+        <td>Jugosa hamburguesa con lechuga, tomate y cebolla.</td>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/sushi.jpg" alt="sushi"></td>
+        <td>Sushi Variado</td>
+        <td>$20.000</td>
+        <td>Selección de sushi fresco con pescado y vegetales.</td>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/tacoalpastor.jpg" alt="taco"></td>
+        <td>Tacos al Pastor</td>
+        <td>$15.000</td>
+        <td>Tacos con carne de cerdo, piña y salsa de chile.</td>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/ensaladacesar.jpg" alt="ensalada-cesar"></td>
+        <td>Ensalada César</td>
+        <td>$8.000</td>
+        <td>Ensalada fresca con lechuga, pollo, crutones y aderezo César.</td>
+    </tr>
+    <tr class="menu-item">
+        <td><img src="./img/chocolate.jpg" alt="postre"></td>
+        <td>Postre de Chocolate</td>
+        <td>$6.000</td>
+        <td>Delicioso postre de chocolate con helado de vainilla.</td>
+    </tr>
+</table>
+<table class="table-lugares" id="lugares">
+    <caption>✈️Lugares por visitar</caption>
+    <tr class="header-lugares">
+        <th>Nombre</th>
+        <th>Ubicación</th>
+        <th>Descripción</th>
+        <th>Imagen</th>
+    </tr>
+    <tr class="lugares-dato">
+        <td>Parque Nacional Tayrona</td>
+        <td>Santa Marta, Colombia</td>
+        <td>Un hermoso parque con playas y naturaleza exuberante.</td>
+        <td><img src="./img/tayrona.jpg" alt="tyrona"></td>
+    </tr>
+    <tr class="lugares-dato">
+        <td>Ciudad Perdida</td>
+        <td>Sierra Nevada de Santa Marta, Colombia</td>
+        <td>Antigua ciudad indígena con impresionantes ruinas.</td>
+        <td><img src="./img/ciudadperdida.jpg" alt="ciudad perdida"></td>
+    </tr>
+    <tr class="lugares-dato">
+        <td>Islas del Rosario</td>
+        <td>Cartagena, Colombia</td>
+        <td>Un archipiélago con playas de arena blanca y aguas cristalinas.</td>
+        <td><img src="./img/islasdelrosario.jpg" alt="islas del rosario"></td>
+    </tr>
+    <tr class="lugares-dato">
+        <td>Caño Cristales</td>
+        <td>Meta, Colombia</td>
+        <td>Río conocido como el "río de los cinco colores" por sus plantas acuáticas.</td>
+        <td><img src="./img/CAÑO_CRISTALES_EL_RÍO_DE_COLORES.jpg" alt="caño cristales"></td>
+    </tr>
+    <tr class="lugares-dato">
+        <td>Parque Arví</td>
+        <td>Medellín, Colombia</td>
+        <td>Un parque natural con senderos y actividades al aire libre.</td>
+        <td><img src="./img/parque-arvi.webp" alt="parque arvi"></td>
+    </tr>
+</table>
+<table class="table-personajes" id="personajes">
+    <caption> 👤Personajes famosos </caption>
+    <tr class="header-personajes">
+        <th>Nombre</th>
+        <th>Profesión</th>
+        <th>Logro Destacado</th>
+        <th>Imagen</th>
+    </tr>
+    <tr class="personajes-dato">
+        <td>Gabriel García Márquez</td>
+        <td>Escritor</td>
+        <td>Premio Nobel de Literatura 1982</td>
+        <td><img src="./img/garcia-marquez-1.webp" alt="gabo"></td>
+    </tr>
+    <tr class="personajes-dato">
+        <td>Shakira</td>
+        <td>Cantante</td>
+        <td>Éxito internacional con "Hips Don't Lie"</td>
+        <td><img src="./img/shakira.jpg" alt="shakira"></td>
+    </tr>
+    <tr class="personajes-dato">
+        <td>James Rodriguez</td>
+        <td>Futbolista</td>
+        <td>Ganador de la Bota de Oro en el Mundial 2014</td>
+        <td><img src="./img/james.avif" alt="james"></td>
+    </tr>
+    <tr class="personajes-dato">
+        <td>Michael Jordan</td>
+        <td>Deportista</td>
+        <td>Considerado uno de los mejores jugadores de baloncesto de todos los tiempos.</td>
+        <td><img src="./img/michael-jordan-chicago-bulls-news-photo-1589276791.avif" alt="jordan"></td>
+    </tr>
+    <tr class="personajes-dato">
+        <td>Stephen Curry</td>
+        <td>Deportista</td>
+        <td>Considerado uno de los mejores jugadores de baloncesto de todos los tiempos.</td>
+        <td><img src="./img/stephen-curry-of-the-golden-state.pjpeg" alt="curry"></td>
+    </tr>
+</table>
+    <footer>
+        <p>© 2025 - Todos los derechos reservados</p>
+        <p>Desarrollado por Jann Villalba</p>
+        <a href="https://github.com/JannVillalba" target="_blank" rel="noopener noreferrer">
+            Ver en GitHub
+        </a>
+    </footer>
+</body>
+</html>
