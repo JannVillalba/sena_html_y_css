@@ -1,13 +1,37 @@
-# 📁 Repositorio de Trabajos - HTML5, CSS y Responsive
+# Sistema de Validación de Formulario Avanzado
 
-¡Bienvenido/a a mi repositorio de proyectos realizados para la clase de **HTML5**, **CSS** y **Diseño Responsive**!
+![Preview del formulario](preview.png) <!-- Opcional: añadir imagen de preview -->
 
-🧑‍💻 **Autor:** Jann Villalba  
-🆔 **Ficha:** 3147253  
+Un sistema de validación de formularios moderno, minimalista y con tema oscuro, que incluye validación en tiempo real, feedback visual y progreso de completado.
 
-## 🗂 Trabajos Disponibles
+## Características ✨
 
-| Tarea| Descripción | Enlace |
-|----------|-------------|--------|
-| 🛡️ **Web Ciberseguridad semana 2** | Página HTML  de ciberseguridad | [Ver README](./web-ciberseguridad/README.md) |
-| 🧾 **Glosario tecnologico semana 1** |Glosario con terminos tecnologicos| [Ver README](./formulario-html/README.md) |
+- ✅ Validación en tiempo real para cada campo
+- 🎨 Diseño minimalista con tema oscuro
+- 📊 Barra de progreso dinámica
+- 🔐 Indicador de fortaleza de contraseña
+- 📱 Diseño responsive
+- 📝 Contador de caracteres para textareas
+- ✔️ Resumen de datos antes de enviar
+
+## Tecnologías Utilizadas 🛠️
+
+- HTML5
+- CSS3 (Variables CSS, Flexbox)
+- JavaScript Vanilla (ES6+)
+
+## Validaciones Implementadas 🔍
+
+| Campo               | Validaciones                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Nombre completo     | Mínimo 3 caracteres, al menos 2 nombres                                    |
+| Apellidos           | Mínimo 3 caracteres, al menos 1 apellido                                   |
+| Email               | Formato válido de email                                                    |
+| Contraseña          | Mínimo 8 caracteres, indicador de fortaleza                                |
+| Confirmar contraseña| Coincidencia con campo de contraseña                                       |
+| Teléfono            | Formato automático (XXX-XXX-XXXX)                                          |
+| Fecha de nacimiento | Mayor de 18 años                                                           |
+| Comentarios         | Contador de caracteres (máx. 450)                                          |
+| Términos            | Aceptación obligatoria                                                     |
+
+## Estructura del Proyecto 📂
