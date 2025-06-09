@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div> 
+        <form id="formularioAvanzado">
+        <h1>Formulario de registro</h1>
+        <div class="barra">
+            <div class="progress-container">
+                <div id="barraProgreso" class="progress-bar"></div>
+            </div>
+        </div>
+        
+        <br> 
+
+        
+            <label for="nombreCompleto">Nombre Completo:</label>
+            <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ingresa tu nombre completo" required>
+            <span id="errorNombre" class="error" style="display: none;"></span>
+            <span id="exitoNombre" class="exito" style="display:none;"></span>
+            <br>
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" name="Apellidos" placeholder="Ingresa tus apellidos" required>
+            <span id="errorApellidos" class="error" style="display: none;"></span>
+            <span id="exitoApellidos" class="exito" style="display:none;"></span>
+            <br>
+
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu email" required>
+            <span id="errorCorreo" class="error" style="display: none;"></span>
+            <span id="exitoCorreo" class="exito" style="display:none;"></span>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+            <span id="errorPassword" class="error" style="display: none;"></span>
+            <span id="exitoPassword" class="exito" style="display:none;"></span>
+            <!-- Barra de fortaleza de contraseña -->
+            <div id="strengthBar" class="password-strength"></div>
+            <br>
+            <label  for="confirmarPassword">Confirmar Contraseña:</label>
+            <input  type="password" id="confirmarPassword" name="confirmarPassword" placeholder="Confirma tu contraseña" required onpaste="return false;" oncopy="return false;">
+            <span id="errorConfirmar" class="error" style="display: none;"></span>
+            <span id="exitoConfirmar" class="exito" style="display:none;"></span>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required>
+            <span id="errorTelefono" class="error" style="display: none;"></span>
+            <span id="exitoTelefono" class="exito" style="display:none;"></span>
+            <br>
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            <span id="errorFecha" class="error" style="display: none;"></span>
+            <span id="exitoFecha" class="exito" style="display:none;"></span>
+            <br>
+            <label for="comentarios">Comentarios:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios aquí" rows="4" cols="50"></textarea>
+            <p> Caracteres: <span id="contadorComentarios">0</span>/450</p>
+            <br>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label>
+            <span id="errorTerminos" class="error" style="display: none;"></span>
+            <br>
+            <button type="submit" id="btnEnviar" >Enviar</button>
+            <p id="idElemento"> </p>
+        </form>
+
+
+    </div>
+    <div id="resumenDatos" style="display: none;">
+        <h2>Resumen de los datos</h2>
+        <div id="contenidoResumen"></div>
+    </div>
+
+<script src="./js/validar.js"></script>
+</body>
+</html>
