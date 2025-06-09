@@ -1,13 +1,13 @@
-# 📁 Repositorio de Trabajos - HTML5, CSS y Responsive
+# 📊 Semana 3: Tablas HTML - SENA
 
-¡Bienvenido/a a mi repositorio de proyectos realizados para la clase de **HTML5**, **CSS** y **Diseño Responsive**!
+Repositorio de ejercicios sobre tablas HTML para el programa de formación del SENA.
 
-🧑‍💻 **Autor:** Jann Villalba  
-🆔 **Ficha:** 3147253  
+## 🎯 Objetivos de aprendizaje
 
-## 🗂 Trabajos Disponibles
+- Crear estructuras tabulares con HTML
+- Combinar celdas con `colspan` y `rowspan`
+- Aplicar estilos profesionales con CSS
+- Implementar buenas prácticas de accesibilidad
+- Desarrollar tablas responsivas
 
-| Tarea| Descripción | Enlace |
-|----------|-------------|--------|
-| 🛡️ **Web Ciberseguridad semana 2** | Página HTML  de ciberseguridad | [Ver README](./web-ciberseguridad/README.md) |
-| 🧾 **Glosario tecnologico semana 1** |Glosario con terminos tecnologicos| [Ver README](./formulario-html/README.md) |
+Jann Villalba 314753
