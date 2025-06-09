@@ -1,6 +1,6 @@
 # 🛡️ Web Ciberseguridad
 
-![Banner Ciberseguridad](https://cdn.pixabay.com/photo/2017/09/29/18/57/cyber-security-2808236_1280.jpg)
+
 
 > Proyecto educativo desarrollado como parte de una práctica en el **SENA**, enfocado en la concientización sobre la **ciberseguridad** y el uso responsable de la tecnología.
 
