@@ -1,6 +1,5 @@
 # Sistema de Validación de Formulario Avanzado
 
-![Preview del formulario](preview.png) <!-- Opcional: añadir imagen de preview -->
 
 Un sistema de validación de formularios moderno, minimalista y con tema oscuro, que incluye validación en tiempo real, feedback visual y progreso de completado.
 
