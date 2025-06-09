@@ -32,5 +32,3 @@ Un sistema de validación de formularios moderno, minimalista y con tema oscuro,
 | Fecha de nacimiento | Mayor de 18 años                                                           |
 | Comentarios         | Contador de caracteres (máx. 450)                                          |
 | Términos            | Aceptación obligatoria                                                     |
-
-## Estructura del Proyecto 📂
