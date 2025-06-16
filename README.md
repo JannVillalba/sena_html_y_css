@@ -1,40 +1,56 @@
-# 📁 Repositorio de Trabajos - HTML5, CSS y Responsive
+# 🌐 Portafolio Web - Jann Villalba
 
-¡Bienvenido/a a mi repositorio de proyectos realizados para la clase de **HTML5**, **CSS** y **Diseño Responsive**!
+Bienvenido a mi portafolio personal, desarrollado con HTML y CSS. Aquí encontrarás una muestra de mis habilidades, tecnologías que manejo, y proyectos destacados en los que he trabajado.
 
-🧑‍💻 **Autor:** Jann Villalba  
-🆔 **Ficha:** 3147253  
+## 📌 Descripción
+
+Este sitio fue creado como una forma de mostrar mi perfil profesional, conocimientos técnicos y experiencia como desarrollador. El objetivo es presentar de manera clara y accesible quién soy, qué hago y cómo puedo aportar valor en proyectos de desarrollo de software.
+
+## 🚀 Características
+
+- Diseño limpio y responsivo
+- Secciones organizadas:
+  - Inicio
+  - Sobre mí
+  - Habilidades y Tecnologías
+  - Proyectos
+  - Contacto
+- Enlaces a redes profesionales (GitHub, LinkedIn)
+- Código HTML y CSS optimizado y estructurado
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap
+- Git
+- Figma (para diseño)
+- Imágenes optimizadas en formato web
+
+## 💼 Proyectos Destacados
+
+### 🔹 Global Gaming - Tienda Virtual
+Proyecto en colaboración donde se desarrolló una tienda virtual utilizando PHP para el backend y HTML/CSS para el frontend. Se trabajó en la carga y visualización de datos, y se practicó el trabajo en equipo.
+
+🔗 [Ver en GitHub](https://github.com/JannVillalba/global_gaming.git)
+
+### 🔹 Web sobre Ciberseguridad
+Sitio informativo enfocado en buenas prácticas y protección de datos. Este proyecto permitió mejorar habilidades en maquetación web y trabajo con contenido multimedia.
+
+🔗 [Ver en GitHub](https://github.com/JannVillalba/sena_html_y_css.git)
+
+## 📫 Contacto
+
+- ✉️ Correo: [jannvillalba027@gmail.com](mailto:jannvillalba027@gmail.com)
+- 📞 Teléfono: +57 3208413842
+- 💻 GitHub: [JannVillalba](https://github.com/JannVillalba)
+- 🔗 LinkedIn: [linkedin.com/in/JannVillalba](https://www.linkedin.com/in/JannVillalba)
+
+## 📝 Licencia
+
+Este proyecto es de código abierto. Puedes usarlo como referencia para tu propio portafolio, pero se agradece el crédito correspondiente.
 
 ---
 
-## 🗂 Trabajos Disponibles
+© 2025 Jann Villalba. Todos los derechos reservados.
 
-| Proyecto | Descripción | Enlace |
-|----------|-------------|--------|
-| 🧾 **Glosario Tecnológico (Semana 1)** | Glosario con términos tecnológicos organizados alfabéticamente. | [Ver proyecto](https://github.com/JannVillalba/sena_html_y_css/tree/Glosario) |
-| 🛡️ **Web Ciberseguridad (Semana 2)** | Página HTML informativa sobre ciberseguridad y buenas prácticas digitales. | [Ver proyecto](https://github.com/JannVillalba/sena_html_y_css/tree/ciberceguridad-pagina) |
-| 📊 **Tablas en HTML (Semana 3)** | Ejercicios prácticos sobre la creación y estilización de tablas en HTML. | [Ver proyecto](https://github.com/JannVillalba/sena_html_y_css/tree/Semana-3-Tablas) |
-| 📝 **Formulario Avanzado (Semana 4)** | Formulario con validación, barra de progreso y diseño responsive. | [Ver proyecto](https://github.com/JannVillalba/sena_html_y_css/tree/Formulario-semana4) |
-
----
-
-## 📚 Descripción de los Proyectos
-
-### 🧾 Glosario Tecnológico (Semana 1)
-Glosario interactivo con términos tecnológicos ordenados alfabéticamente. Se utilizó HTML semántico y diseño responsive.
-
-### 🛡️ Web Ciberseguridad (Semana 2)
-Sitio web enfocado en la concientización sobre ciberseguridad, buenas prácticas y amenazas comunes. Desarrollado con HTML y CSS.
-
-### 📊 Tablas en HTML (Semana 3)
-Ejercicios sobre la creación de tablas con etiquetas como `<table>`, `<tr>`, `<th>`, `<td>` y estilos básicos en CSS.
-
-### 📝 Formulario Avanzado (Semana 4)
-Formulario con diseño moderno y tema oscuro. Incluye validación en tiempo real, indicador de contraseña, contador de caracteres y más, usando HTML5, CSS y JavaScript.
-
----
-
-## 🚀 Cómo Usar
-
-```bash
-git clone https://github.com/JannVillalba/sena_html_y_css.git
