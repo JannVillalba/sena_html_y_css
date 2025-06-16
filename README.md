@@ -33,6 +33,8 @@ Ejercicios sobre la creación de tablas con etiquetas como `<table>`, `<tr>`, `<
 ### 📝 Formulario Avanzado (Semana 4)
 Formulario con diseño moderno y tema oscuro. Incluye validación en tiempo real, indicador de contraseña, contador de caracteres y más, usando HTML5, CSS y JavaScript.
 
+### 💼 Portafoli (Semana 5)
+Portafolio de presentacion para buscar trabajo usando las buenas practicas de programacion HMTL5 y CSS
 ---
 
 ## 🚀 Cómo Usar
